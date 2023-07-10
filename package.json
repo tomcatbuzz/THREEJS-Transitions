@@ -1,0 +1,22 @@
+{
+  "name": "threejs-transition-effect",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vite-plugin-require-transform": "^1.0.20"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "simple-input-events": "^2.0.0",
+    "three": "^0.154.0",
+    "vite-plugin-glsl": "^1.1.2",
+    "vite-plugin-require": "^1.1.10"
+  }
+}
