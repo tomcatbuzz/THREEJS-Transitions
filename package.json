@@ -1,22 +1,30 @@
 {
   "name": "threejs-transition-effect",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Threejs Transition Effect",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcatbuzz/THREEJS-Transitions.git"
+  },
+  "keywords": [
+    "Threejs",
+    "transitions"
+  ],
+  "author": "Anthony Buzzelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomcatbuzz/THREEJS-Transitions/issues"
+  },
+  "homepage": "https://github.com/tomcatbuzz/THREEJS-Transitions#readme",
+  "dependencies": {
+    "simple-input-events": "^2.0.0",
+    "three": "^0.154.0"
   },
   "devDependencies": {
-    "vite": "^4.3.9",
-    "vite-plugin-require-transform": "^1.0.20"
-  },
-  "dependencies": {
-    "gsap": "^3.12.2",
-    "simple-input-events": "^2.0.0",
-    "three": "^0.154.0",
-    "vite-plugin-glsl": "^1.1.2",
-    "vite-plugin-require": "^1.1.10"
+    "events": "^3.3.0"
   }
 }
